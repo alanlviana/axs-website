@@ -15,19 +15,18 @@ paginate = 10
 [[menu.main]]
     name       = "Faça parte"
     identifier = "menu.facaparte"
-    url        = "/img/template-easy-customize.png"
+
     weight     = 2
 
 [[menu.main]]
-    name       = "Seja membro"
-    url        = ""
+    name       = "Seja sócio"
+    url        = "/sejasocio/"
     weight     = 1
     parent     = "menu.facaparte"
-    post       = 1
 
 [[menu.main]]
     name       = "Loja AXS"
-    url        = ""
+    url        = "/loja_axs/"
     weight     = 2
     parent     = "menu.facaparte"
     post       = 2
@@ -39,7 +38,7 @@ paginate = 10
     weight     = 3
 
 [[menu.main]]
-    name       = "Torneiros Escolares"
+    name       = "Torneios Escolares"
     url        = ""
     weight     = 1
     parent     = "menu.educacao"
@@ -122,7 +121,7 @@ paginate = 10
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2023, AXS"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -156,11 +155,6 @@ paginate = 10
     tags = true
     search = true
 
-[params.carouselCustomers]
-    items = 6
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
 
 [params.carouselTestimonials]
     items = 4
@@ -177,39 +171,18 @@ paginate = 10
     slide_speed = 2000
     pagination_speed = 1000
 
-[params.features]
-    enable = true
-    cols = 3 # Default: 3, Available values 2,3,4,6
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more information take a look at the README.
-
 [params.testimonials]
     enable = true
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    title = "Depoimentos"
+    subtitle = "Veja um pouco sobre o que os nossos membros e sócios pensam sobre o clube."
 
-[params.see_more]
-    enable = true
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
 
-[params.clients]
-    enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more information take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
