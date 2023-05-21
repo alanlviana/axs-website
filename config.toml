@@ -25,11 +25,20 @@ paginate = 10
     parent     = "menu.facaparte"
 
 [[menu.main]]
-    name       = "Loja AXS"
-    url        = "/loja_axs/"
+    name       = "Torneio de Sexta Feira"
+    url        = "/torneio_sexta_feira/"
     weight     = 2
     parent     = "menu.facaparte"
     post       = 2
+
+[[menu.main]]
+    name       = "Loja AXS"
+    url        = "/loja_axs/"
+    weight     = 3
+    parent     = "menu.facaparte"
+    post       = 3
+
+
 
 [[menu.main]]
     name       = "Educação"
@@ -39,7 +48,7 @@ paginate = 10
 
 [[menu.main]]
     name       = "Torneios Escolares"
-    url        = ""
+    url        = "/torneios_escolares/"
     weight     = 1
     parent     = "menu.educacao"
     post       = 1
@@ -47,15 +56,10 @@ paginate = 10
 [[menu.main]]
     name       = "Eventos"
     identifier = "menu.eventos"
-    url        = ""
+    url        = "/blog/"
     weight     = 4
 
-[[menu.main]]
-    name       = "Torneio de Sexta Feira"
-    url        = ""
-    weight     = 2
-    parent     = "menu.eventos"
-    post       = 1
+
 
 
 [[menu.main]]
@@ -194,3 +198,6 @@ paginate = 10
   category = "categories"
   tag = "tags"
   author = "authors"
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
