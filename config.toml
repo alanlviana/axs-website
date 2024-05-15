@@ -54,9 +54,9 @@ paginate = 10
     post       = 1
 
 [[menu.main]]
-    name       = "Eventos"
-    identifier = "menu.eventos"
-    url        = "/blog/"
+    name       = "Galeria de Fotos"
+    identifier = "menu.fotos"
+    url        = "/photos/"
     weight     = 4
 
 

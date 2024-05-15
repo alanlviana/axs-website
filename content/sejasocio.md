@@ -18,8 +18,8 @@ O valor arrecado é utilizado para manter o funcionamento do club, manter os tor
 
 O valor anual para se manter como um sócio AXS é de R$ 120,00 por ano!
 
-## Forma de pagamento
-- PIX
+## Faça o pagamento via PIX para a ASSOCIACAO DESPORTIVA ATLETA REI
+- CNPJ: 54.172.517/0001-97
 
 ## Como se tornar sócio?
 
