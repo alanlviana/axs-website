@@ -181,7 +181,7 @@ paginate = 10
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
     title = "Depoimentos"
-    subtitle = "Veja um pouco sobre o que os nossos membros e sócios pensam sobre o clube."
+    subtitle = "Veja um pouco sobre o que pensam sobre o clube:"
 
 
 
